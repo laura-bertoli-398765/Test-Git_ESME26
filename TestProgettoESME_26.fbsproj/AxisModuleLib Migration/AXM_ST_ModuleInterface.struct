@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "c68eaa63-cfaf-4e48-8a39-d57a9961070e",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_ModuleInterface :
+	STRUCT
+		stMain		: AXM_ST_Main;
+		stHome		: AXM_ST_Home;
+		stManual	: AXM_ST_Manual;
+		stEndless	: AXM_ST_EndlessFeed;
+		stMultiCam	: AXM_ST_MultiCam;
+		stPos		: AXM_ST_Positioning;
+		stBrake		: AXM_ST_BrakeRelease;		
+		stAdditional: AXM_ST_AdditionalMode;
+	END_STRUCT
+END_TYPE

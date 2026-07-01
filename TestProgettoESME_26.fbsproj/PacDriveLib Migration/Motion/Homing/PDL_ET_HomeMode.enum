@@ -1,0 +1,43 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "d886c5ed-9d8e-461c-9d27-ca3451118f14",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_HomeMode :
+(
+	PosDirectionPosEdgeTp           := 0,
+	NegDirectionPosEdgeTp           := 1,
+	NegDirectionNegEdgeTp           := 2,
+	PosDirectionNegEdgeTp           := 3,
+	PosDirectionPosEdgeSensor       := 4,
+	NegDirectionPosEdgeSensor       := 5,
+	NegDirectionNegEdgeSensor       := 6,
+	PosDirectionNegEdgeSensor       := 7,
+	PosDirectionPosEdgeHWLimitPos   := 8,
+	NegDirectionPosEdgeHWLimitNeg   := 9,
+	NegDirectionNegEdgeHWLimitNeg   := 10,
+	PosDirectionNegEdgeHWLimitPos   := 11,
+	PosDirectionMaxTorque           := 12,
+	NegDirectionMaxTorque           := 13,
+	MoveOnPosAbs                    := 14,
+	SetPosAxisPosition              := 15,
+	SetPosLogEncoderPosition        := 16,
+	SetPosAxisAndLogEncoderPosition := 17,
+	RestorePosFromAxisEncoder       := 18,
+	RestorePosFromRetain            := 19,
+	WriteAxisEncoder                := 20,
+	PosDirectionMaxForce            := 21,
+	NegDirectionMaxForce            := 22
+)UDINT;
+END_TYPE

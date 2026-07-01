@@ -1,0 +1,36 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "f4957f39-0767-4e67-a6b9-003c8b2c6533",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'to_string'}
+TYPE AXM_ET_Cmd :
+(
+	Homing					:= 10,
+	Manual					:= 20,
+	CamCs					:= 30,
+	CamWs					:= 31,
+	Endless					:= 40,
+	Positioning				:= 50,
+	BrakeRelease			:= 70,
+	AdditionalCs			:= 80,
+	AdditionalWs			:= 81,
+	Start					:= 100,
+	StartTrig				:= 101,
+	StartTrigWaitInPos		:= 102,
+	Stop					:= 110,
+	Hold					:= 120,
+	WsStart					:= 150,
+	DriveEnableOn			:= 130,
+	DriveEnableOff			:= 140
+) DINT;
+END_TYPE

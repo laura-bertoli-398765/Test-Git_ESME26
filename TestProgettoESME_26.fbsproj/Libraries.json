@@ -1,0 +1,257 @@
+{
+  "references": {
+    "SMI": {
+      "$type": "Placeholder",
+      "placeholder": "SercosMasterInterface",
+      "defaultResolution": "SercosMasterInterface, * (Schneider Electric)",
+      "allowUnqualifiedAccess": true
+    },
+    "TPL": {
+      "$type": "ManagedLibrary",
+      "libraryId": "PD_Template, 2.0.5.0 (Schneider Electric)",
+      "allowUnqualifiedAccess": true
+    }
+  },
+  "placeholderOverrides": {
+    "CAA Callback": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CAA Device Diagnosis": "CAA Device Diagnosis, 3.5.21.0 (CAA Technical Workgroup)",
+    "CAA DTUtility": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CAA FB Factory": "CAA FB Factory, 3.5.19.0 (CAA Technical Workgroup)",
+    "CAA MemBlockMan": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CAA Storage": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CAA Storage Imp": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CAA Types": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CBML": "Common Behaviour Model, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+    "CmpApp": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpAsyncMgr": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpBinTagUtilIec": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpBitmapPool": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpCodeMeter": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpCrypto Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpDynamicText": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpErrors": "CmpErrors, 3.3.1.40 (System)",
+    "CmpEventMgr": "CmpEventMgr, 3.5.17.0 (System)",
+    "CmpEventMgr Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpIecTask": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpIoMgr Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpLog": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpSchedule": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpSrv": "CmpSrv, 3.5.17.0 (System)",
+    "CmpTargetVisu": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpTraceMgr": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpUserMgr Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpVisuHandler": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CmpWebServer Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "Collections": "Collections, 3.5.17.0 (System)",
+    "CommFB": "CommFB, 3.5.21.0 (CODESYS)",
+    "CommonDeviceInterface": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CommonFieldDeviceInterface": "CommonFieldDeviceInterface, 26.0.1.0 (Schneider Electric)",
+    "Component Manager": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "CtrlLib": "ControlLoopLibrary, 1.0.1.0 (CODESYS)",
+    "DeviceTypeInterfaces": "DeviceTypeInterfaces, 26.0.1.1 (Schneider Electric)",
+    "ElementCollections": "Element Collections, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+    "FloatingPointUtils": "FloatingPointUtils, 4.0.0.0 (System)",
+    "IoStandard": "IoStandard, 3.5.17.0 (System)",
+    "MemoryBlockManager": "Memory Block Manager, 3.5.21.30 (CODESYS)",
+    "MemoryUtils": "MemoryUtils, 3.5.18.0 (3S - Smart Software Solutions GmbH)",
+    "MotionDeviceInterface": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "Rts Service Handler": "Rts Service Handler, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
+    "SE_PLCSystem": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SercosMasterInterface": "SercosMasterInterface, 26.0.1.0 (Schneider Electric)",
+    "Standard": "Standard, 3.5.18.0 (System)",
+    "Standard64": "Standard64, 3.5.20.0 (System)",
+    "StringUtils": "StringUtils, 3.5.20.0 (System)",
+    "SysCpuHandling": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysFile": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysMem": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysProcess": "SysProcess, 3.5.17.0 (System)",
+    "SysProcess Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysSem": "SysSem, 3.5.17.0 (System)",
+    "SysSem Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysShm": "SysShm, 3.5.17.0 (System)",
+    "SysShm Implementation": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysTarget": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysTask": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "System_VisuElem3DPath": "VisuElem3DPath, 4.7.0.0 (System)",
+    "System_VisuElemCamDisplayer": "VisuElemCamDisplayer, 4.7.0.0 (System)",
+    "System_VisuElemMeter": "VisuElemMeter, 4.9.0.0 (System)",
+    "System_VisuElems": "VisuElems, 4.9.1.0 (System)",
+    "System_VisuElemsAlarm": "VisuElemsAlarm, 4.9.0.0 (System)",
+    "System_VisuElemsDateTime": "VisuElemsDateTime, 4.9.0.0 (System)",
+    "System_VisuElemsSpecialControls": "VisuElemsSpecialControls, 4.7.0.0 (System)",
+    "System_VisuElemsWinControls": "VisuElemsWinControls, 4.9.0.0 (System)",
+    "System_VisuElemTextEditor": "VisuElemTextEditor, 4.8.0.0 (System)",
+    "System_VisuElemTrace": "VisuElemTrace, 4.9.0.0 (System)",
+    "System_VisuElemXYChart": "VisuElemXYChart, 4.8.0.0 (System)",
+    "System_VisuInputs": "VisuInputs, 4.7.0.0 (System)",
+    "System_VisuNativeControl": "VisuNativeControl, 4.9.0.0 (System)",
+    "SysTime": "SysTime, 3.5.17.0 (System)",
+    "SysTimeCore": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysTimeRtc": "NotImplementedByDevice, 3.5.17.0 (System)",
+    "SysTypes": "SysTypes, 3.1.2.0 (System)",
+    "UserFunctionsBase": "UserFunctionsBase, 2.2.1.0 (Schneider Electric)",
+    "UserFunctionsMPlcInterface": "UserFunctionsMPlcInterface, 26.0.1.3 (Schneider Electric)",
+    "Util": "Util, 3.5.21.0 (System)"
+  },
+  "v3Meta": {
+    "objectName": null,
+    "objectGuid": "a5e918eb-cd22-40a1-8f86-553856147447",
+    "objectTypeGuid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+    "embeddedObjectTypeGuids": [],
+    "properties": {
+      "Elau.Epas5.LibraryConfiguration.CoDeSysInterface.MappingTableObject": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{c8edade9-a049-4800-a2d4-edc2b2aca694}\" Method=\"IArchivable\"><Array Name=\"LibraryMappings\" Type=\"string\"><Single Type=\"string\">PD_Template, 2.0.5.0 (Schneider Electric)</Single><Single Type=\"string\">ApplicationLogger, 2.1.1.0 (Schneider Electric)</Single><Single Type=\"string\">ApplicationLoggerBase, 1.0.10.0 (Schneider Electric)</Single><Single Type=\"string\">PD_GlobalDiagnostics, 1.6.0.0 (Schneider Electric)</Single><Single Type=\"string\">CommonMotionInterface, 1.4.5.0 (Schneider Electric)</Single><Single Type=\"string\">CommonToolbox, 1.3.0.0 (Schneider Electric)</Single><Single Type=\"string\">Mathematics, 1.1.13.0 (Schneider Electric)</Single><Single Type=\"string\">Toolbox, 3.2.1.0 (Schneider Electric)</Single><Single Type=\"string\">ApplicationLogger2, 1.1.2.0 (Schneider Electric)</Single><Single Type=\"string\">CommonPouTypes, 1.1.3.0 (Schneider Electric)</Single><Single Type=\"string\">PD_TemplateCommonTypes, 1.0.3.0 (Schneider Electric)</Single><Single Type=\"string\">AsyncManager, 1.0.9.0 (Schneider Electric)</Single></Array></Single>"
+    },
+    "subObjects": {}
+  },
+  "libraryParameters": {},
+  "v3SystemLibraries": [
+    {
+      "namespace": "Analyzation",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "Analyzation",
+        "defaultResolution": "Analyzation, 4.1.0.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IecSfc",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IecSfc",
+        "defaultResolution": "IecSfc, 4.4.0.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElem3DPath",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElem3DPath",
+        "defaultResolution": "VisuElem3DPath, 4.7.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemCamDisplayer",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemCamDisplayer",
+        "defaultResolution": "VisuElemCamDisplayer, 4.7.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemMeter",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemMeter",
+        "defaultResolution": "VisuElemMeter, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElems",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElems",
+        "defaultResolution": "VisuElems, 4.9.1.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemsAlarm",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemsAlarm",
+        "defaultResolution": "VisuElemsAlarm, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemsDateTime",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemsDateTime",
+        "defaultResolution": "VisuElemsDateTime, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemsSpecialControls",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemsSpecialControls",
+        "defaultResolution": "VisuElemsSpecialControls, 4.7.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemsWinControls",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemsWinControls",
+        "defaultResolution": "VisuElemsWinControls, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemTextEditor",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemTextEditor",
+        "defaultResolution": "VisuElemTextEditor, 4.8.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemTrace",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemTrace",
+        "defaultResolution": "VisuElemTrace, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuElemXYChart",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuElemXYChart",
+        "defaultResolution": "VisuElemXYChart, 4.8.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuInputs",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuInputs",
+        "defaultResolution": "VisuInputs, 4.7.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "VisuNativeControl",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "System_VisuNativeControl",
+        "defaultResolution": "VisuNativeControl, 4.9.0.0 (System)",
+        "resolverGuid": "2717eb6a-dd07-4c66-8d8d-cacebd7b18ae",
+        "allowUnqualifiedAccess": true
+      }
+    }
+  ]
+}

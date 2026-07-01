@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "38d36901-ae25-4bcd-bb40-c45f96ba985c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_ExampleLeafModuleCmd :
+(
+	(* TPL.Gc_udiUserCmdOffset : UDINT := 25000; // >= 25000: user defined Commands *)
+	Homing				:= 30000,
+	Auto				:= 30001,
+	Start				:= 30002,
+	Stop				:= 30003,
+	Hold				:= 30004
+	
+)DINT;
+END_TYPE

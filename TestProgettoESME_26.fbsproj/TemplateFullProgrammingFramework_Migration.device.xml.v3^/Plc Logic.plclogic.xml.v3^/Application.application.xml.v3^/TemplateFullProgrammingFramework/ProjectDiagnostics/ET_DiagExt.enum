@@ -1,0 +1,63 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "fc92f541-2ccb-469b-b98e-1369aec19580",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_DiagExt :
+(
+	(* Minimum value +0 *)
+	Ok								:= 0,
+	Disabled						:= 1,
+	WaitUntilControllerFinishedBoot	:= 2,
+	Initializing					:= 3,
+	DeactivatingSubModules			:= 4,
+	ExecuteStep						:= 5,
+	WaitAtNegativeStep				:= 6,
+	WaitCmdsDone					:= 7,
+	WaitForCmd						:= 8,
+	SubModuleInException			:= 9,
+	ModuleControllerException		:= 10,
+	UnknownStateModuleController	:= 11,
+	
+	SystemFatalException			:= 12,
+	SystemException					:= 13,
+	SystemWarning					:= 14,
+	MainSystemEmergencyStop			:= 15,
+	InvalidPointer					:= 16,	
+	UpdateStructsException			:= 17,
+	InitReactionsException			:= 18,
+	InitSubModulesException			:= 19,
+	DriveInvalid					:= 20,
+	UnknownDiagExt					:= 21,
+	
+	Exception1FromVis				:= 22,
+	Exception2FromVis				:= 23,
+	Exception3FromVis				:= 24,
+	Exception4FromVis				:= 25,
+	Exception5FromVis				:= 26,
+	
+	DiagnosticsWarning					:= 27,
+	WaitUntilDiagnosticsManagerReady	:= 28,
+	WaitUntilDisabled					:= 29,
+	WaitUntilDiagSourceRegistered		:= 30,
+	WaitForCommunication				:= 31,
+	DataSuccessfullyWritten				:= 32,
+	WritingToFile						:= 33,
+	FileIdInvalid						:= 34,
+	CmdUnknown							:= 35,	
+
+	WaitUntilSercosState4				:= 36,
+
+	UnexpectedFeedback					:= 37,
+	UnknownDiagExtUser					:= 38
+)UDINT;
+END_TYPE

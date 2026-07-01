@@ -1,0 +1,24 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "fa629cf0-c5ea-486c-b716-1202d9dc936a",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_MultiCamCsModeMaster :
+(
+	NoChangeOfMasterPosition				:= 0,
+	SetMasterPositionToFirstCamPosition		:= 1,
+	SetMasterPositionToMinusInfinite		:= 2,
+	SetMasterPositionToExtCsMasterPosition	:= 3
+);
+END_TYPE

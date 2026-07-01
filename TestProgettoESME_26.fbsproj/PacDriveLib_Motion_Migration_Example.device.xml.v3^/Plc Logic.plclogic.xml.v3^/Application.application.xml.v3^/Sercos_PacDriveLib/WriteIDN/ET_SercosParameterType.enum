@@ -1,0 +1,21 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "60286b29-d971-44f4-a9f2-a10d6538acc9",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ET_SercosParameterType :
+(
+	S_Parameter := 0,
+	P_Parameter := 1
+);
+END_TYPE

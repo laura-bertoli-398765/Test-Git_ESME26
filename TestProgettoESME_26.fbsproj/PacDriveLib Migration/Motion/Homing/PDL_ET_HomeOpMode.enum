@@ -1,0 +1,31 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "8d8fd529-47ce-48eb-8a9f-e9da0fb5419b",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_HomeOpMode :
+(
+	NoOp			:= 0,
+	TouchProbe		:= 1,
+	Sensor			:= 2,
+	LimitSwitch		:= 3,
+	Torque			:= 4,
+	MoveOnPos		:= 5,
+	WritePos		:= 6,
+	SetPos			:= 7,
+	Force			:= 8
+)
+UDINT
+;
+END_TYPE

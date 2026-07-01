@@ -1,0 +1,17 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "52f1c510-c18e-4399-9573-d2126449f39b",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+	G_diTaskIntervalInMs : DINT;
+END_VAR
+

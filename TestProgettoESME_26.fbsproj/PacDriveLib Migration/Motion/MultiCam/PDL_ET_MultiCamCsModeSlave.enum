@@ -1,0 +1,24 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "3762badc-9703-46ca-a9bb-309d56e9963c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_MultiCamCsModeSlave :
+(
+	NoChangeOfSlavePosition				:= 0,
+	SetSlavePositionToFirstCamPosition	:= 1,
+	MoveSlaveToFirstCamPosition			:= 2,
+	SetSlavePositionToCamPosition		:= 3	(* DoFirstCsMaster *)
+);
+END_TYPE

@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "ae65dd71-cd26-488d-8a67-59c459e02c0c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_AdditionalMode :
+STRUCT
+	i_etDiag						: GD.ET_Diag := GD.ET_Diag.Ok;
+	i_udiDiagExt					: UDINT;
+	i_sDiagExt						: STRING[80];
+	i_sMsg							: STRING[80];
+	i_xActive						: BOOL;
+	i_xReady						: BOOL;
+	i_xActionCmdDone				: BOOL;
+	q_xEnable						: BOOL;
+	q_xStart						: BOOL;
+	q_xWsSelect						: BOOL;
+	q_xWsStart						: BOOL;
+END_STRUCT
+END_TYPE

@@ -1,0 +1,35 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "346e6d4e-6795-49f3-9b72-3ea3bfef6dd4",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_Cmd :
+(	NoCmd				:= 0,
+
+	(* TPL.Gc_udiUserCmdOffset : UDINT := 25000; // >= 25000: user defined Commands *)
+	DriveEnableOn		:= 25999,
+	DriveEnableOff		:= 25998,
+	Init				:= 25997,
+	Prepare				:= 25996,
+	Production			:= 25995,
+	Auto				:= 25994,
+	BrakeRelease		:= 25993,
+	Abort				:= 25992,
+	Standby				:= 25991,
+	Manual				:= 25990,
+	Jogging				:= 25989,
+	Hold				:= 25988,
+	Stop				:= 25987,
+	Start				:= 25986,
+	HoldJM				:= 25985
+)DINT;
+END_TYPE

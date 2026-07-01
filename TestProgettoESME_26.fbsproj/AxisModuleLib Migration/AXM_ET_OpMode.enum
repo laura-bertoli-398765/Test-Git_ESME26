@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "df02a49d-17ee-4431-a55b-6d136d49b6c0",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE AXM_ET_OpMode :
+(
+	NoOp 					:= 0,
+	Homing					:= 10,
+	Manual					:= 20,
+	MultiCam				:= 30,
+	Endless					:= 40,
+	Positioning				:= 50,
+	BrakeRelease			:= 70,
+	Additional				:= 80	
+)DINT;
+END_TYPE

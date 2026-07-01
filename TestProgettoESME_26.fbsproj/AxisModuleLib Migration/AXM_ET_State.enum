@@ -1,0 +1,54 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "952353d4-94f8-4100-abaf-e4ea38152f08",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE AXM_ET_State :
+(
+	Disabled					:= 1,
+	Initializing				:= 2,
+	NoOpDriveEnabled			:= 3,
+	NoOpDriveDisabled			:= 4,
+	HomingInit					:= 10,
+	HomingWaitForStart			:= 11,
+	HomingExecuting				:= 12,
+	HomingDone					:= 13,
+	HomingExit					:= 14,
+	ManualInit					:= 20,
+	ManualRunning				:= 21,
+	ManualExit					:= 22,
+	MultiCamInit				:= 30,
+	MultiCamWaitForStart		:= 31,
+	MultiCamWaitForWsStart		:= 32,
+	MultiCamWsExecuting			:= 33,
+	MultiCamRunning				:= 34,
+	MultiCamExit				:= 35,
+	EndlessInit					:= 40,
+	EndlessWaitForStart			:= 41,
+	EndlessRunning				:= 42,
+	EndlessExit					:= 43,
+	PositioningInit				:= 50,
+	PositioningWaitForStart		:= 51,
+	PositioningRunning			:= 52,
+	PositioningExit				:= 53,
+	BrakeReleaseInit			:= 60,
+	BrakeClosed					:= 61,
+	BrakeReleased				:= 62,
+	BrakeReleaseExit			:= 63,
+	AdditionalInit				:= 80,
+	AdditionalWaitForStart		:= 81,
+	AdditionalRunning			:= 82,
+	AdditionalExit				:= 83
+)DINT;
+END_TYPE

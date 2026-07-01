@@ -1,0 +1,35 @@
+__V3_META__
+{
+  "objectGuid": "bc5fc312-b477-436b-a932-a2149cb3375d",
+  "objectTypeGuid": "261bd6e6-249c-4232-bb6f-84c2fbeef430",
+  "embeddedObjectTypeGuids": [
+    "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+  ],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{261bd6e6-249c-4232-bb6f-84c2fbeef430}" Method="IArchivable">
+  <Null Name="persvarlist" />
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Single Name="TextBlobForSerialisation" Type="string">VAR_GLOBAL PERSISTENT RETAIN
+	Grp_stRestorePositionAxis1	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis2	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis3	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis4	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis5	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis6	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis7	: PDL_ST_AxisRestorePosition;
+	Grp_stRestorePositionAxis8	: PDL_ST_AxisRestorePosition;
+END_VAR
+</Single>
+      <Single Name="LineInfoPersistence" Type="string">bc5fc312-b477-436b-a932-a2149cb3375d_Decl_LineIds</Single>
+    </Single>
+  </Single>
+  <Null Name="NetVarProperties" />
+  <Single Name="guidinit" Type="System.Guid">1d028a22-33e7-4856-b2f9-58c20a749ae9</Single>
+  <Single Name="guidcyclic" Type="System.Guid">415f5809-f9a9-4fda-8e0f-689c359c303e</Single>
+  <Single Name="dymmattributecount" Type="int">3</Single>
+</Single>

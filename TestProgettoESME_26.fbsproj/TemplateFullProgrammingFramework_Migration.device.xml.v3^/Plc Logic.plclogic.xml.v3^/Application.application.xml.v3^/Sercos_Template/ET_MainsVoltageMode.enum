@@ -1,0 +1,21 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "b45b7d02-b91e-4478-914c-2c5ea2e1ce3c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ET_MainsVoltageMode :
+(
+	_400V := 0,
+	_230V := 1
+);
+END_TYPE

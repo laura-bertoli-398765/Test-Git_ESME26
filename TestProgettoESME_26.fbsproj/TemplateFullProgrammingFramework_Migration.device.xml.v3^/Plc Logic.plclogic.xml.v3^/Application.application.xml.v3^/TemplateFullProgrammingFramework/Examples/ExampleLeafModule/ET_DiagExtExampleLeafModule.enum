@@ -1,0 +1,62 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "10e04b23-1508-48b1-8a83-a9cb9fc8bc91",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_DiagExtExampleLeafModule :
+(
+(* Minimum value +0 *)
+	Ok										:= 0,
+	Disabled								:= 1,
+	Initializing							:= 2,
+	NoOp									:= 3,
+	HomingWaitForStart						:= 4,
+	HomingExecuting							:= 5,
+	HomingDone								:= 6,
+	AutoWaitForStart						:= 7,
+	AutoRunning								:= 8,
+	Working									:= 9,
+
+	UnknownDiagExtExampleLeafModule			:= 10,
+	SubModuleAddInterfacesInvalidPointer	:= 11,
+	SubModuleConstantRange					:= 12,
+	MissingExtInit							:= 13,
+	ReactionOffsetRange						:= 14,
+	DriveInvalid							:= 15,
+	
+	CmdUnknown								:= 16,
+	CmdImpossibleOverwrite					:= 17,
+	CmdImpossibleState						:= 18,
+	CmdImpossibleReaction					:= 19,
+	
+	AsyncStop								:= 20,
+	SyncStopEL								:= 21,
+	SyncStopEH								:= 22,
+	StopEndOfCycle							:= 23,
+	
+	DriveFatalException						:= 24,
+	DriveException							:= 25,
+	DriveWarning							:= 26,
+	
+	UnknownState							:= 27,
+	UnknownCmd								:= 28,
+	RandomException							:= 29,
+	
+	CurrentStandardItfInvalidPointer		:= 30,
+	CurrentAddItfInvalidPointer				:= 31,
+	
+	ParentInvalid							:= 32,
+	ParentNotRegistered						:= 33,
+	MaxNumberOfLoggerPointsExeeded			:= 34,
+	UnexpectedDiagExt						:= 35
+)UDINT;
+END_TYPE

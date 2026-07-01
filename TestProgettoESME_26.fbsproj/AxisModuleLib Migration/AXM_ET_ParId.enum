@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "26ecfd2a-807d-4359-bb97-ad398aeb6cba",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE AXM_ET_ParId :
+	(	
+		Idle		:= 0,
+		Start		:= 1,
+		Cont		:= 2,
+		Stop		:= 3,
+		User		:= 4
+	)UDINT;
+END_TYPE

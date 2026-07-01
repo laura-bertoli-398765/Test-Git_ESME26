@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "fb6c9502-26fa-4926-a11d-a4286b16f3c9",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'to_string'}
+TYPE PDL_ET_HomeLimitSwitchMode :
+(
+	PosDirectionPosEdgeHWLimitPos	:= 0,
+	NegDirectionPosEdgeHWLimitNeg	:= 1,
+	NegDirectionNegEdgeHWLimitNeg	:= 2,
+	PosDirectionNegEdgeHWLimitPos	:= 3
+)
+UDINT
+;
+END_TYPE

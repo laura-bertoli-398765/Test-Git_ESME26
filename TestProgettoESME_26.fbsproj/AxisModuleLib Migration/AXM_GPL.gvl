@@ -1,0 +1,17 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "ad3d3494-adea-4c99-ae04-2f1e5b421ca2",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+VAR_GLOBAL CONSTANT
+	Gc_udiMaxNumberOfCamTables		: UDINT := 4;
+END_VAR

@@ -1,0 +1,19 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "a2473140-5015-4fd4-b26b-bdfdf7729527",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+	G_xMainsContactorOut 		(*-AT %QX0.0-*)	: BOOL;
+
+	G_xEmergencyIn  			(*-AT %IX0.0-*)	: BOOL;
+	G_xMainsContactorIn 		(*-AT %IX0.1-*)	: BOOL;
+END_VAR

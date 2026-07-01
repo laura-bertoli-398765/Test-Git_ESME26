@@ -1,0 +1,38 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "f341dcc2-0f62-4f55-bb38-e55f943ef0b8",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE ET_MulticamState :
+(
+	idle_error 								:= 0,
+	waitForStart 							:= 10,//select cs/ws starting path
+	
+	ws_showCamPosition 						:= 15,//show position at output, no movement
+	ws_waitForWsStart						:= 19,//starting: ws only
+	start_positioning 						:= 20,//starting: move to cam start position 
+	start_waitForCamStarted_minusInfinite 	:= 25,//starting: only ET_MultiCamCsModeMaster.SetMasterPositionToMinusInfinite
+	start_waitForCamStarted 				:= 28,//starting: wait until cam is inSync
+	
+	camRunning 								:= 30,//running, wait for new cmds
+	waitForNewCamStarted 					:= 35,//start new cam & instant new cam 
+	waitForCamFinished 						:= 40,//finishing (start = false)
+	waitUntilStopped 						:= 50,//finishing (start = false)
+	
+	ext_moveToStopPos						:= 80,//extended structure: move to stop pos
+	ext_moveToStartpos						:= 90,//extended structure: move to start pos	
+	
+	controllerStop							:= 100//estop
+);
+END_TYPE

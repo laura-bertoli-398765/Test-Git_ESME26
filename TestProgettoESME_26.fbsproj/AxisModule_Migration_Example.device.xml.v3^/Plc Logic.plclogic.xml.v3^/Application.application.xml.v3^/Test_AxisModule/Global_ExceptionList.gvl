@@ -1,0 +1,19 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "9d6afad9-0aba-4e6b-b5ae-2b57a3a1f8eb",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+		(* ExceptionHandling and Logging *)	
+	G_stExceptionList			: TPL.ST_ExceptionList;
+	G_stLogDataList				: TPL.ST_LogDataList;
+
+END_VAR

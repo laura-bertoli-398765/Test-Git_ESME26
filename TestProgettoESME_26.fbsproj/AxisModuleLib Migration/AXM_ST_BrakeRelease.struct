@@ -1,0 +1,18 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "44e89107-e653-47c2-9284-fb7ee04d1073",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_BrakeRelease :
+STRUCT	
+		q_xBrakeReleased			: BOOL;
+END_STRUCT
+END_TYPE

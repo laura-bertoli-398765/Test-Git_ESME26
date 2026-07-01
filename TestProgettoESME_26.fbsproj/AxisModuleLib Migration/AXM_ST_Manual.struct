@@ -1,0 +1,26 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "fd4725c7-66a2-4f27-8b0b-648bfccd620a",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_Manual :
+STRUCT
+	i_xJogForw				: BOOL;
+	i_xJogBack				: BOOL;
+	i_lrVel					: LREAL := 10.0;
+	i_lrAcc					: LREAL := 1000.0;
+	i_lrDec					: LREAL := 1000.0;
+	i_lrMaxDistance			: LREAL := 9999.0;
+	i_xEndless				: BOOL := FALSE;
+	i_lrJerk				: LREAL := 9999.0;		
+	i_lrPeriod				: LREAL := 0.0;
+END_STRUCT
+END_TYPE

@@ -1,0 +1,30 @@
+__V3_META__
+{
+  "objectGuid": "5e96c640-8350-4e73-a6fa-dcc5ba2192a0",
+  "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+  "embeddedObjectTypeGuids": [
+    "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+  ],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" Method="IArchivable">
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Single Name="TextBlobForSerialisation" Type="string">{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE INTERNAL AXM_ET_PowerState :
+(	Disabled			:= 0,
+	PowerOff			:= 20,
+	PowerOn				:= 30,
+	WaitForDisabled		:= 40
+);
+END_TYPE</Single>
+      <Single Name="LineInfoPersistence" Type="string">5e96c640-8350-4e73-a6fa-dcc5ba2192a0_Decl_LineIds</Single>
+    </Single>
+  </Single>
+  <Single Name="UniqueIdGenerator" Type="string">28</Single>
+</Single>

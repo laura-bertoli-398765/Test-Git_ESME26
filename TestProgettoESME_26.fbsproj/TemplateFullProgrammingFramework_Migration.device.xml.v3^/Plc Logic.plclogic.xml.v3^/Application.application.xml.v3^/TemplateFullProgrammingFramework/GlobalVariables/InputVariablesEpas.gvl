@@ -1,0 +1,48 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "d1b1af23-4734-4954-ad00-6564d7e7e16a",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+	G_xStartEpas				: BOOL;
+	G_xStopEpas					: BOOL;
+	G_xPrepareEpas				: BOOL;
+	G_xAutoEpas					: BOOL;
+	G_xHoldEpas					: BOOL;
+	G_xAbortEpas				: BOOL;
+	G_xProductsOkEpas			: BOOL;
+	G_xPowerOnEpas				: BOOL;
+	G_xPowerOffEpas				: BOOL;
+	G_xManualEpas				: BOOL;
+	G_xJogMachineEpas			: BOOL;
+	G_xDiagQuitEpas				: BOOL;
+	G_xEmergencyEpas			: BOOL := TRUE;
+	G_xJogForwEpas				: BOOL;
+	G_xJogBackEpas				: BOOL;
+	G_xBrakeReleaseEpas			: BOOL;
+	
+	G_udiManualModuleSelect		: UDINT;
+//	G_udiManualElementSelect	: UDINT;
+
+	G_xDoEnableVis				: BOOL;
+
+	G_xDoPrepare 				: BOOL;
+	G_xDoAuto	 				: BOOL;
+	G_xDoManual 				: BOOL;
+	G_xDoJogMachine 			: BOOL;
+	G_xDoBrakeRelease			: BOOL;
+
+	G_xPrepareActive 			: BOOL;
+	G_xAutoActive	 			: BOOL;
+	G_xManualActive 			: BOOL;
+	G_xJogMachineActive 		: BOOL;
+	G_xBrakeReleaseActive		: BOOL;
+END_VAR

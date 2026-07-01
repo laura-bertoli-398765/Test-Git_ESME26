@@ -1,0 +1,30 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "9cfb9aea-7156-4b61-a528-5d6d131c2dcb",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+	G_xStartExt			: BOOL;
+	G_xStopExt			: BOOL;
+	G_xPrepareExt		: BOOL;
+	G_xAutoExt			: BOOL;
+	G_xHoldExt			: BOOL;
+	G_xAbortExt			: BOOL;
+	G_xProductsOkExt	: BOOL;
+	G_xPowerOnExt		: BOOL;
+	G_xPowerOffExt		: BOOL;
+	G_xManualExt		: BOOL;
+	G_xJogMachineExt	: BOOL;
+	G_xDiagQuitExt		: BOOL;
+	G_xJogForwExt		: BOOL;
+	G_xJogBackExt		: BOOL;
+	G_xBrakeReleaseExt	: BOOL;
+END_VAR

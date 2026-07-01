@@ -1,0 +1,24 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "bdb59f43-ec1e-4017-b422-6bee9e9316ca",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE AXM_ET_MotionActiveVelType :
+(
+	RefVelocity		:= 1,
+	Velocity		:= 2,
+	MechRefVelocity	:= 3,
+	MechVelocity	:= 4
+)DINT;
+END_TYPE

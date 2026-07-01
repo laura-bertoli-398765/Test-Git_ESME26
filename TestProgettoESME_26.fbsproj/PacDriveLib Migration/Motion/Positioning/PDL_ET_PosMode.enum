@@ -1,0 +1,23 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "c4992894-d04a-4827-a337-4ed8530f80c2",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_PosMode :
+(
+	Endless		:= 0,	
+	Relative	:= 1,
+	Absolute	:= 2
+);
+END_TYPE

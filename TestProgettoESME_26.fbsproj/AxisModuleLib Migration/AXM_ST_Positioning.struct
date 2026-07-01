@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "d6fe7f48-77bf-44fd-aa4b-698ced16da4d",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_Positioning :
+STRUCT
+	i_etPosMode			: PDL_ET_PosMode := PDL_ET_PosMode.Relative;
+	i_lrTarget			: LREAL:= 10.0;
+	i_lrVel				: LREAL:= 10.0;
+	i_lrAcc				: LREAL:= 1000.0;
+	i_lrDec				: LREAL:= 1000.0;
+	i_lrJerk			: LREAL := 9999.0;
+	i_xStop				: BOOL;
+	q_xInPosition		: BOOL;
+END_STRUCT
+END_TYPE

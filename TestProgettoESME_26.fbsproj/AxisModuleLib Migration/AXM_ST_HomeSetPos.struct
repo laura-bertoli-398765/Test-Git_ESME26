@@ -1,0 +1,26 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "2650f1d6-04d5-4ea1-a50c-094875f2812c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {
+      "_3S.CoDeSys.LanguageModelManager.BuildProperty": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{24568a24-c491-472c-a21f-ee5d33859fab}\" Method=\"IArchivable\"><Single Name=\"MemoryReserveForOnlineChange\" Type=\"int\">0</Single><Single Name=\"ExcludeFromBuild\" Type=\"bool\">False</Single><Single Name=\"External\" Type=\"bool\">False</Single><Single Name=\"EnableSystemCall\" Type=\"bool\">False</Single><Single Name=\"CompilerDefines\" Type=\"string\"></Single><Single Name=\"LinkAlways\" Type=\"bool\">False</Single><Array Name=\"Undefines\" Type=\"string\" /></Single>"
+    },
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_HomeSetPos :
+STRUCT
+		i_lrHomePosition		: LREAL:= 0.0;
+		i_lrEncoderPosition		: LREAL:= 0.0;
+		i_lrUserPeriod			: LREAL:= 0.0;
+		i_lrAbsEncOffset		: LREAL:= 100.0;
+		i_lrRestoreWindow		: LREAL:= 360;
+		iq_pstRestorePosRetain 	: POINTER TO PDL_ST_AxisRestorePosition;
+		i_xKeepPowerDisabled	: BOOL;
+END_STRUCT
+END_TYPE

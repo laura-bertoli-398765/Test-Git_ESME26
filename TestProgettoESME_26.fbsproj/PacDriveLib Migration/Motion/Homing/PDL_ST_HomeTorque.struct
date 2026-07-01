@@ -1,0 +1,26 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "2c4a2366-fdc3-4241-8074-c3cb9b240fd7",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE PDL_ST_HomeTorque :
+	STRUCT
+		i_lrHomePosition		: LREAL:= 0.0;			
+		i_lrVel					: LREAL:= 10.0;			
+		i_lrAcc					: LREAL:= 1000.0;		
+		i_lrDec					: LREAL:= 1000.0;		
+		i_lrOffset				: LREAL:= 0.0;			
+		i_lrMaxTravel			: LREAL:= 9999.0;		
+		i_lrMaxTorque			: LREAL:= 0.0;			
+		i_lrJerk				: LREAL:= 100.0;		
+		i_diTorqueTime			: DINT:=5;				
+	END_STRUCT
+END_TYPE

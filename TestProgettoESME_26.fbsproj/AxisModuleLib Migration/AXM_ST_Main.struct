@@ -1,0 +1,36 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "33a09a22-0ae4-464b-badf-bca9558d00f4",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_Main :
+STRUCT
+	i_ifDrive                : moin.IF_Axis;
+	i_ifMaster               : moin.IF_Axis;
+	i_timMasterStop          : TIME  := T#1000MS;
+	i_xHwLimitPos            : BOOL;
+	i_xHwLimitNeg            : BOOL;
+	i_xStart                 : BOOL;
+	i_lrMotionActiveVelLimit : LREAL := 5.0;
+	i_etMotionActiveVelType  : AXM_ET_MotionActiveVelType := AXM_ET_MotionActiveVelType.RefVelocity;
+	iq_lencEncoder           : MOIN.IF_LogicalEncoder;
+	stReducedVelocity        : PDL_ST_ReducedVelocity;
+	q_xDriveActive           : BOOL;
+	q_etOpMode               : AXM_ET_OpMode;
+	q_etState                : AXM_ET_State;
+	q_xHomeOk                : BOOL;
+	q_xSynchron              : BOOL;
+	q_lrPosition             : LREAL;
+	q_lrPositionX            : LREAL;
+	q_sDriveName             : STRING[40];
+	q_xMotionActive          : BOOL;
+END_STRUCT
+END_TYPE

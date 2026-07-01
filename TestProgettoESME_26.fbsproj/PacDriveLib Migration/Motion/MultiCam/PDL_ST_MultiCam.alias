@@ -1,0 +1,16 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "cb17d544-bfd6-4df9-a852-a7f1d090f3af",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE
+	PDL_ST_MultiCam : CMT.ST_MultiCam;
+END_TYPE

@@ -1,0 +1,18 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "466098f5-854d-4589-93b6-59c4cbb15af2",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+VAR_GLOBAL
+	LE_Master		: MOIN.FB_LogicalEncoder;
+	LE_Slave1		: MOIN.FB_LogicalEncoder;
+	LE_Slave2		: MOIN.FB_LogicalEncoder;
+END_VAR

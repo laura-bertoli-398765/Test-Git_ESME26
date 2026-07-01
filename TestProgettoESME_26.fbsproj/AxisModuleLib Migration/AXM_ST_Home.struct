@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "a09d7fe5-55f6-4b2b-8e01-9302c3bf3d5f",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE AXM_ST_Home :
+STRUCT
+	i_xEnableInitAbsReadPos	: BOOL;
+	i_xResetHomeOk			: BOOL;
+	i_etMode				: PDL_ET_HomeMode:= PDL_ET_HomeMode.SetPosAxisAndLogEncoderPosition;
+	stTouchProbe			: PDL_ST_HomeTp;
+	stSensor				: PDL_ST_HomeIn;
+	stLimitSwitch			: PDL_ST_HomeLimitSwitch;
+	stTorque				: PDL_ST_HomeTorque;
+	stMoveOnPos				: PDL_ST_HomeMoveOnPos;
+	stSetPos				: AXM_ST_HomeSetPos;
+	stWritePos				: PDL_ST_HomeWritePos;
+	stForce					: PDL_ST_HomeForce;
+END_STRUCT
+END_TYPE

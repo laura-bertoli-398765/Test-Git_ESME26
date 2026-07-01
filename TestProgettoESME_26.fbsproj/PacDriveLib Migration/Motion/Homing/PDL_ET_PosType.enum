@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "54116e23-3001-4dc8-acde-737340835dea",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_PosType :
+(
+	Position				:= 0,
+	RefPosition				:= 1,
+	MechPosition			:= 2,
+	MechRefPosition			:= 3,
+	ShaftMechPosition		:= 4,
+	ShaftMechRefPosition	:= 5
+)
+UDINT
+;
+END_TYPE

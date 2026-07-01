@@ -1,0 +1,471 @@
+__V3_META__
+{
+  "objectGuid": "a4544bef-8c88-4307-ae07-5ef821783b2e",
+  "objectTypeGuid": "8ac092e5-3128-4e26-9e7e-11016c6684f2",
+  "embeddedObjectTypeGuids": [
+    "25e509de-33d4-4447-93f8-c9e4ea381c8b"
+  ],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{8ac092e5-3128-4e26-9e7e-11016c6684f2}" Method="IArchivable">
+  <Single Name="Implementation" Type="{25e509de-33d4-4447-93f8-c9e4ea381c8b}" Method="IArchivable">
+    <Single Name="NetworkListComment" Type="string"></Single>
+    <Single Name="DefaultViewMode" Type="string">Fbd</Single>
+    <List2 Name="NetworkList">
+      <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+        <Single Name="ILActive" Type="bool">False</Single>
+        <Single Name="FBDValid" Type="bool">False</Single>
+        <Single Name="ILValid" Type="bool">False</Single>
+        <List2 Name="ILLines" />
+        <Single Name="Comment" Type="string">Instance call FB_AxisModule for Masteraxis</Single>
+        <Single Name="Title" Type="string"></Single>
+        <Single Name="Label" Type="string"></Single>
+        <Single Name="OutCommented" Type="bool">False</Single>
+        <List2 Name="NetworkItems">
+          <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+            <Single Name="BoxType" Type="string">AXM_FB_AxisModule</Single>
+            <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+              <Single Name="Operand" Type="string">fbMasterModule</Single>
+              <Single Name="Type" Type="string">AXM.FB_AxisModule</Single>
+              <Single Name="Comment" Type="string"></Single>
+              <Single Name="SymbolComment" Type="string"></Single>
+              <Single Name="Address" Type="string"></Single>
+              <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                <Single Name="Flags" Type="int">0</Single>
+                <Single Name="Fixed" Type="bool">False</Single>
+                <Single Name="Extensible" Type="bool">False</Single>
+              </Single>
+              <Single Name="LValue" Type="bool">False</Single>
+              <Single Name="Boolean" Type="bool">False</Single>
+              <Single Name="IsInstance" Type="bool">True</Single>
+              <Single Name="Id" Type="long">3</Single>
+            </Single>
+            <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+              <List2 Name="OutputItems" />
+            </Single>
+            <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+              <Single Name="Flags" Type="int">0</Single>
+              <Single Name="Fixed" Type="bool">False</Single>
+              <Single Name="Extensible" Type="bool">False</Single>
+            </Single>
+            <Null Name="InputFlags" />
+            <List2 Name="InputItems">
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">astModuleInterface[c_udiMaster]</Single>
+                  <Single Name="Type" Type="string">TPL.ST_StandardModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string">  Instancing the required FB and its Interface-s</Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">6</Single>
+                </Single>
+                <Single Name="Id" Type="long">5</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stExceptionList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_ExceptionList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"> ExceptionHandling and Logging </Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">8</Single>
+                </Single>
+                <Single Name="Id" Type="long">7</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stLogDataList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_LogDataList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">10</Single>
+                </Single>
+                <Single Name="Id" Type="long">9</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">stMasterInterface</Single>
+                  <Single Name="Type" Type="string">AXM.ST_ModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">12</Single>
+                </Single>
+                <Single Name="Id" Type="long">11</Single>
+              </Single>
+            </List2>
+            <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names">
+                <Single Type="string">iq_stStandardModuleItf</Single>
+                <Single Type="string">iq_stExceptionList</Single>
+                <Single Type="string">iq_stLogDataList</Single>
+                <Single Type="string">iq_stAxisModuleItf</Single>
+              </List2>
+              <List2 Name="Types">
+                <Single Type="string">TPL.ST_StandardModuleInterface[REF]</Single>
+                <Single Type="string">TPL.ST_ExceptionList[REF]</Single>
+                <Single Type="string">TPL.ST_LogDataList[REF]</Single>
+                <Single Type="string">ST_ModuleInterface[REF]</Single>
+              </List2>
+            </Single>
+            <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names" />
+              <List2 Name="Types" />
+            </Single>
+            <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">FunctionBlock</Single>
+            <Single Name="EN" Type="bool">False</Single>
+            <Single Name="ENO" Type="bool">False</Single>
+            <Null Name="STSnippet" />
+            <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+            <Single Name="ProvidesSTSnippet" Type="bool">False</Single>
+            <Single Name="Id" Type="long">4</Single>
+          </Single>
+        </List2>
+        <List2 Name="Connectors" />
+        <Single Name="Id" Type="long">2</Single>
+      </Single>
+      <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+        <Single Name="ILActive" Type="bool">False</Single>
+        <Single Name="FBDValid" Type="bool">False</Single>
+        <Single Name="ILValid" Type="bool">False</Single>
+        <List2 Name="ILLines" />
+        <Single Name="Comment" Type="string">Instance call FB_AxisModule for Slave1 axis</Single>
+        <Single Name="Title" Type="string"></Single>
+        <Single Name="Label" Type="string"></Single>
+        <Single Name="OutCommented" Type="bool">False</Single>
+        <List2 Name="NetworkItems">
+          <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+            <Single Name="BoxType" Type="string">AXM_FB_AxisModule</Single>
+            <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+              <Single Name="Operand" Type="string">fbSlave1Module</Single>
+              <Single Name="Type" Type="string">AXM.FB_AxisModule</Single>
+              <Single Name="Comment" Type="string"></Single>
+              <Single Name="SymbolComment" Type="string"></Single>
+              <Single Name="Address" Type="string"></Single>
+              <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                <Single Name="Flags" Type="int">0</Single>
+                <Single Name="Fixed" Type="bool">False</Single>
+                <Single Name="Extensible" Type="bool">False</Single>
+              </Single>
+              <Single Name="LValue" Type="bool">False</Single>
+              <Single Name="Boolean" Type="bool">False</Single>
+              <Single Name="IsInstance" Type="bool">True</Single>
+              <Single Name="Id" Type="long">14</Single>
+            </Single>
+            <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+              <List2 Name="OutputItems" />
+            </Single>
+            <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+              <Single Name="Flags" Type="int">0</Single>
+              <Single Name="Fixed" Type="bool">False</Single>
+              <Single Name="Extensible" Type="bool">False</Single>
+            </Single>
+            <Null Name="InputFlags" />
+            <List2 Name="InputItems">
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">astModuleInterface[c_udiSlave1]</Single>
+                  <Single Name="Type" Type="string">TPL.ST_StandardModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string">  Instancing the required FB and its Interface-s</Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">17</Single>
+                </Single>
+                <Single Name="Id" Type="long">16</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stExceptionList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_ExceptionList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"> ExceptionHandling and Logging </Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">19</Single>
+                </Single>
+                <Single Name="Id" Type="long">18</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stLogDataList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_LogDataList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">21</Single>
+                </Single>
+                <Single Name="Id" Type="long">20</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">stSlave1Interface</Single>
+                  <Single Name="Type" Type="string">AXM.ST_ModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">23</Single>
+                </Single>
+                <Single Name="Id" Type="long">22</Single>
+              </Single>
+            </List2>
+            <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names">
+                <Single Type="string">iq_stStandardModuleItf</Single>
+                <Single Type="string">iq_stExceptionList</Single>
+                <Single Type="string">iq_stLogDataList</Single>
+                <Single Type="string">iq_stAxisModuleItf</Single>
+              </List2>
+              <List2 Name="Types">
+                <Single Type="string">TPL.ST_StandardModuleInterface[REF]</Single>
+                <Single Type="string">TPL.ST_ExceptionList[REF]</Single>
+                <Single Type="string">TPL.ST_LogDataList[REF]</Single>
+                <Single Type="string">ST_ModuleInterface[REF]</Single>
+              </List2>
+            </Single>
+            <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names" />
+              <List2 Name="Types" />
+            </Single>
+            <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">FunctionBlock</Single>
+            <Single Name="EN" Type="bool">False</Single>
+            <Single Name="ENO" Type="bool">False</Single>
+            <Null Name="STSnippet" />
+            <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+            <Single Name="ProvidesSTSnippet" Type="bool">False</Single>
+            <Single Name="Id" Type="long">15</Single>
+          </Single>
+        </List2>
+        <List2 Name="Connectors" />
+        <Single Name="Id" Type="long">13</Single>
+      </Single>
+      <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+        <Single Name="ILActive" Type="bool">False</Single>
+        <Single Name="FBDValid" Type="bool">False</Single>
+        <Single Name="ILValid" Type="bool">False</Single>
+        <List2 Name="ILLines" />
+        <Single Name="Comment" Type="string">Instance call FB_AxisModule for Slave2 axis</Single>
+        <Single Name="Title" Type="string"></Single>
+        <Single Name="Label" Type="string"></Single>
+        <Single Name="OutCommented" Type="bool">False</Single>
+        <List2 Name="NetworkItems">
+          <Single Type="{acfc6f68-8e3a-4af5-bf81-3dd512095a46}" Method="IArchivable">
+            <Single Name="BoxType" Type="string">AXM_FB_AxisModule</Single>
+            <Single Name="Instance" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+              <Single Name="Operand" Type="string">fbSlave2Module</Single>
+              <Single Name="Type" Type="string">AXM.FB_AxisModule</Single>
+              <Single Name="Comment" Type="string"></Single>
+              <Single Name="SymbolComment" Type="string"></Single>
+              <Single Name="Address" Type="string"></Single>
+              <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                <Single Name="Flags" Type="int">0</Single>
+                <Single Name="Fixed" Type="bool">False</Single>
+                <Single Name="Extensible" Type="bool">False</Single>
+              </Single>
+              <Single Name="LValue" Type="bool">False</Single>
+              <Single Name="Boolean" Type="bool">False</Single>
+              <Single Name="IsInstance" Type="bool">True</Single>
+              <Single Name="Id" Type="long">25</Single>
+            </Single>
+            <Single Name="OutputItems" Type="{f40d3e09-c02c-4522-a88c-dac23558cfc4}" Method="IArchivable">
+              <List2 Name="OutputItems" />
+            </Single>
+            <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+              <Single Name="Flags" Type="int">0</Single>
+              <Single Name="Fixed" Type="bool">False</Single>
+              <Single Name="Extensible" Type="bool">False</Single>
+            </Single>
+            <Null Name="InputFlags" />
+            <List2 Name="InputItems">
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">astModuleInterface[c_udiSlave2]</Single>
+                  <Single Name="Type" Type="string">TPL.ST_StandardModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string">  Instancing the required FB and its Interface-s</Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">28</Single>
+                </Single>
+                <Single Name="Id" Type="long">27</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stExceptionList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_ExceptionList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"> ExceptionHandling and Logging </Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">30</Single>
+                </Single>
+                <Single Name="Id" Type="long">29</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">G_stLogDataList</Single>
+                  <Single Name="Type" Type="string">TPL.ST_LogDataList</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">32</Single>
+                </Single>
+                <Single Name="Id" Type="long">31</Single>
+              </Single>
+              <Single Type="{9de7f100-1b87-424c-a62e-45b0cfc85ed2}" Method="IArchivable">
+                <Single Name="Operand" Type="{c9b2f165-48a2-4a45-8326-3952d8a3d708}" Method="IArchivable">
+                  <Single Name="Operand" Type="string">stSlave2Interface</Single>
+                  <Single Name="Type" Type="string">AXM.ST_ModuleInterface</Single>
+                  <Single Name="Comment" Type="string"></Single>
+                  <Single Name="SymbolComment" Type="string"></Single>
+                  <Single Name="Address" Type="string"></Single>
+                  <Single Name="Flags" Type="{668066f2-6069-46b3-8962-8db8d13d7db2}" Method="IArchivable">
+                    <Single Name="Flags" Type="int">0</Single>
+                    <Single Name="Fixed" Type="bool">False</Single>
+                    <Single Name="Extensible" Type="bool">False</Single>
+                  </Single>
+                  <Single Name="LValue" Type="bool">False</Single>
+                  <Single Name="Boolean" Type="bool">False</Single>
+                  <Single Name="IsInstance" Type="bool">False</Single>
+                  <Single Name="Id" Type="long">34</Single>
+                </Single>
+                <Single Name="Id" Type="long">33</Single>
+              </Single>
+            </List2>
+            <Single Name="InputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names">
+                <Single Type="string">iq_stStandardModuleItf</Single>
+                <Single Type="string">iq_stExceptionList</Single>
+                <Single Type="string">iq_stLogDataList</Single>
+                <Single Type="string">iq_stAxisModuleItf</Single>
+              </List2>
+              <List2 Name="Types">
+                <Single Type="string">TPL.ST_StandardModuleInterface[REF]</Single>
+                <Single Type="string">TPL.ST_ExceptionList[REF]</Single>
+                <Single Type="string">TPL.ST_LogDataList[REF]</Single>
+                <Single Type="string">ST_ModuleInterface[REF]</Single>
+              </List2>
+            </Single>
+            <Single Name="OutputParam" Type="{71496971-9e0c-4677-a832-b9583b571130}" Method="IArchivable">
+              <List2 Name="Names" />
+              <List2 Name="Types" />
+            </Single>
+            <Single Name="CallType" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">FunctionBlock</Single>
+            <Single Name="EN" Type="bool">False</Single>
+            <Single Name="ENO" Type="bool">False</Single>
+            <Null Name="STSnippet" />
+            <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+            <Single Name="ProvidesSTSnippet" Type="bool">False</Single>
+            <Single Name="Id" Type="long">26</Single>
+          </Single>
+        </List2>
+        <List2 Name="Connectors" />
+        <Single Name="Id" Type="long">24</Single>
+      </Single>
+      <Single Type="{d9a99d73-b633-47db-b876-a752acb25871}" Method="IArchivable">
+        <Single Name="ILActive" Type="bool">False</Single>
+        <Single Name="FBDValid" Type="bool">False</Single>
+        <Single Name="ILValid" Type="bool">False</Single>
+        <List2 Name="ILLines" />
+        <Single Name="Comment" Type="string"></Single>
+        <Single Name="Title" Type="string"></Single>
+        <Single Name="Label" Type="string"></Single>
+        <Single Name="OutCommented" Type="bool">False</Single>
+        <List2 Name="NetworkItems" />
+        <List2 Name="Connectors" />
+        <Single Name="Id" Type="long">1</Single>
+      </Single>
+    </List2>
+    <Single Name="BranchCounter" Type="int">0</Single>
+    <Single Name="ValidIds" Type="bool">True</Single>
+  </Single>
+  <Single Name="UniqueIdGenerator" Type="string">34</Single>
+</Single>

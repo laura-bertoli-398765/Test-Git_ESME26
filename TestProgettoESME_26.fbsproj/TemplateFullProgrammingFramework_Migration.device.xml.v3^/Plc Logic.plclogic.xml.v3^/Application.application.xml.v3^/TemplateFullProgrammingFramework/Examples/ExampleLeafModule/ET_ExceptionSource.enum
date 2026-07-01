@@ -1,0 +1,22 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "38527a87-cab8-47c1-9e54-67e8ff860dac",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_ExceptionSource :
+(
+	(* 0 - 9999 = reserved area *)
+	
+	(* Sources > 9999 = free Area *)
+	ExampleLeafModule	:= 15000
+)UDINT;
+END_TYPE

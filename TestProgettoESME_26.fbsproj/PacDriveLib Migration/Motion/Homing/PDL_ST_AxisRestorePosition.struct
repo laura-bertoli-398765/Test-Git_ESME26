@@ -1,0 +1,20 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "f920b781-91e3-463b-a95e-eab106a815d6",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE PDL_ST_AxisRestorePosition:
+STRUCT
+	lrEncPosition:		LREAL;		(* Encoder Position, use Retain Variable on input *)
+	lrAxisPosition:		LREAL;		(* AxisPosition, use Retain Variable on input *)
+	lrCheckSum:			LREAL;		(* Check Sum for verification of valid values *)
+END_STRUCT
+END_TYPE

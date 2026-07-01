@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "f007df96-db4a-4bec-96ab-95c4020fc339",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'to_string'}
+TYPE PDL_ET_HomeState :
+(
+	ExceptionOrIdle		:= 0,
+	WaitForStart		:= 1,
+	WaitUntilFbActive	:= 2,
+	WaitUntilHomeOk		:= 3,
+	WaitUntilFbDisabled	:= 4,
+	WaitUntilDisabled	:= 100
+)
+UDINT
+;
+END_TYPE

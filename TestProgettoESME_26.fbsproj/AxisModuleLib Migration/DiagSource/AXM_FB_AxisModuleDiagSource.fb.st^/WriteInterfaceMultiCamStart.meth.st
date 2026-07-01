@@ -1,0 +1,28 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "4f10f1e6-6bb1-4ec8-a25f-7437c2f94ace",
+    "objectTypeGuid": "f8a58466-d7f6-439f-bbb8-d4600e41d099",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94",
+      "3b83b776-fb25-43b8-99f2-3c507c9143fc"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+
+METHOD INTERNAL WriteInterfaceMultiCamStart : BOOL
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+	q_etDiag		: GD.ET_Diag;
+	q_etDiagExt	: TPL.ET_DiagExt;
+	q_sMsg			: STRING[80];
+END_VAR
+__IMPLEMENTATION__
+THIS^.fbTreeWriter.NodeStart(	i_sName		:= 'stMultiCam',
+								q_etDiag	=> q_etDiag,
+								q_etDiagExt	=> q_etDiagExt,
+								q_sMsg		=> q_sMsg);

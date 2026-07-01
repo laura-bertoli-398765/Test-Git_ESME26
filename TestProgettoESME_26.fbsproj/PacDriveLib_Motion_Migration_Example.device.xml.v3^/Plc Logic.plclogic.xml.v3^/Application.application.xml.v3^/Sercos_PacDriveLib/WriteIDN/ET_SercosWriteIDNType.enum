@@ -1,0 +1,30 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "0f55e383-f33c-4b51-aa7d-f39b914b372d",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ET_SercosWriteIDNType :
+(
+	WriteName := 0,
+	WriteAttribute := 1,
+	WriteUnit := 2,
+	WriteMinValue := 3,
+	WriteMaxValue := 4,
+	WriteUserData := 5,
+	WriteUserDataWithVariableLenght := 6,
+	ExecuteCommand := 7,
+	StartCommand := 8,
+	CheckCommand := 9,
+	StopCommand := 10
+);
+END_TYPE

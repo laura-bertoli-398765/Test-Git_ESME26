@@ -1,0 +1,46 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "017c4cd9-e8c5-4658-a90c-40111677d09e",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+
+
+TYPE AXM_ST_MultiCam :
+STRUCT
+	i_etCsModeSlave					: PDL_ET_MultiCamCsModeSlave := PDL_ET_MultiCamCsModeSlave.SetSlavePositionToFirstCamPosition;
+	i_etCsModeMaster				: PDL_ET_MultiCamCsModeMaster := PDL_ET_MultiCamCsModeMaster.SetMasterPositionToFirstCamPosition;
+	i_etWsMode						: PDL_ET_MultiCamWsMode := PDL_ET_MultiCamWsMode.StoredCamMoveAlwaysNoPositionCheck;
+	i_lrWsWindow					: LREAL := 5.0;
+	i_lrWsVel						: LREAL := 10.0;
+	i_lrWsAcc						: LREAL := 1000.0;
+	i_lrWsJerk						: LREAL := 9999.0;
+	i_xCheckEncoderPeriod			: BOOL := TRUE;
+// 	i_xSetEncoderParameters			: BOOL := FALSE;
+	i_xSetEncoderPosition			: BOOL := FALSE;
+	i_lrSetEncoderOffset			: LREAL := 0.0;
+	i_xKeepEncoderConnection		: BOOL := FALSE;
+	i_diTXend						: DINT:= 15;
+	i_lrInstantXLimMax				: LREAL;
+	i_xEnableTabHandler				: BOOL;
+	i_udiTableSelectNr				: UDINT;
+	iq_astMotionPar					: ARRAY [0..AXM_GPL.Gc_udiMaxNumberOfCamTables] OF CMT.ST_MultiCam;
+	iq_stExt						: PDL_ST_MultiCamExt;
+	iq_xNewCam						: BOOL:= FALSE;
+	iq_xInstantNewCam				: BOOL:= FALSE;
+	iq_xChangeMaster				: BOOL:= FALSE;
+	q_xXLowEnd						: BOOL;
+	q_xXHighEnd						: BOOL;
+	q_xInWsWindow					: BOOL;
+	q_lrCalculatedCamPosition		: LREAL;
+	q_stActualCamData				: PDL_ST_ActualCamData;
+	q_diActTable					: DINT:=-1;
+END_STRUCT
+END_TYPE

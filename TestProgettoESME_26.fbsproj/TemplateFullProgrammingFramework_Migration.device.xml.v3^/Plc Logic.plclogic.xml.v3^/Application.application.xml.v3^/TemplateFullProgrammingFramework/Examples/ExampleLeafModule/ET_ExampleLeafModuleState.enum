@@ -1,0 +1,26 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "f43a2611-cb71-45f3-861b-c842fa8e1329",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+TYPE ET_ExampleLeafModuleState :
+(
+	NoOp				:= 0,
+	Disabled			:= 1,
+	Initializing		:= 2,
+	HomingWaitForStart	:= 3,
+	HomingExecuting		:= 4,
+	HomingDone			:= 5,
+	AutoWaitForStart	:= 6,
+	AutoRunning			:= 7
+)UDINT;
+END_TYPE

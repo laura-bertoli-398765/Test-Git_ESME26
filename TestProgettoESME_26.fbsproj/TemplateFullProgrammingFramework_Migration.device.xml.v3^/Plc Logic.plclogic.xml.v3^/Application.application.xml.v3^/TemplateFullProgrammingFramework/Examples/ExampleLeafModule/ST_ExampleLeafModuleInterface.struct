@@ -1,0 +1,25 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "1b102bde-f6ca-4ce8-90df-9bc70f9eb68c",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE ST_ExampleLeafModuleInterface :
+STRUCT
+	i_ifDrive						: PLCO.Axis_Ref;
+	i_lrPosMin						: LREAL;
+	i_lrPosMax						: LREAL;
+	i_xInitHoming					: BOOL;
+	i_xEnableRandomExceptionTrigger	: BOOL;
+	
+	q_xValue						: BOOL := FALSE;
+	q_etState						: ET_ExampleLeafModuleState := ET_ExampleLeafModuleState.Disabled;
+END_STRUCT
+END_TYPE

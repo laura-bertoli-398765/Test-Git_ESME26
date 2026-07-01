@@ -1,0 +1,70 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "86504a4c-0461-495a-a674-0c912d2b3665",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE PDL_ST_MultiCamExt:
+STRUCT
+	xNoModuloMasterAtStart:		BOOL;		(* if TRUE, master position is not set into periode at warm start *)
+
+	xNoModuloSlaveAtStart:		BOOL;		(* if TRUE, slave position is not set into periode at warm start *)
+											(* if WSMode = 0, 10  -> no shortest way *)
+											(* if WSMode = 1, 11  -> no shortest way, wIindow is not going into next periode*)
+											(* if WSMode = 2, 12  -> not going into next Periode *)
+											(* if  WSMode = 3, 13  -> not going into previous Periode *)
+
+	xNoCyclicCams:				BOOL;		(* No restart of cam at the end; XLims are set CAM_LIMIT_MODE_INACTIVE *)
+
+	xFirstCamNoXLimMin:			BOOL;		(* First Cam at ColdStart has no active XLimMin *)
+
+	xStopPositionSelect:		BOOL;		(* if True, Axis goes to StopPosition with neg.edge of Start *)
+	lrStopPosition:				LREAL;		(* StopPosition *)
+	lrStopVelocity:				LREAL;
+	lrStopAcceleration:			LREAL;
+	lrStopDeceleration:			LREAL;
+	lrStopJerk:					LREAL;
+
+	xStartPositionSelect:		BOOL;		(* if True, Axis goes to StartPosition with pos.edge of Start *)
+	lrStartPosition:			LREAL;		(* Start Position *)
+	lrStartVelocity:			LREAL;
+	lrStartAcceleration:		LREAL;
+	lrStartDeceleration:		LREAL;
+	lrStartJerk:				LREAL;
+
+	xYEqualCheck:				BOOL;			(* checks if Y_Endpos of old Cam is equal to Startpos of new Cam *)
+												(* is checked with NewCam and InstantNewCam signals *)
+												(* is not checked with Cold or Warmstart *)
+												(* generates Error if positions are not equal *)
+	lrYEqualCheckAccuracy:		LREAL:= 0.1;	(* Accuracy for YEqualCheck *)
+
+
+	xNewCamDirectAccept:		BOOL;		(* if TRUE NewCam is directly accepted, if FALSE it is with XHighend or XLowEnd *)
+	xDisableLowEnd:				BOOL;		(* Disables the connection of a NewCam at the LowEnd *)
+	xDisableHighEnd:			BOOL;		(* Disables the connection of a NewCam at the HighEnd *)
+
+	lrCsMasterPosition:			LREAL;		(* Cold Start Position for Master in CSModeMaster = 3 *)
+
+
+
+	xInWindowCheckWithoutLimits:BOOL;		(* InWSWindow will be checked also outof the periode  *)
+	etInWindowMode:				PDL_ET_MultiCamWsMode;		(* In WSMode 4 or 14 the InWSWindow Bit will be set dependigng on the "real WSMode" *)
+
+	lrXStart:					LREAL;		(* XStart for warm start mode 5 (15) *)
+	lrXIncr:					LREAL:= 10;	(* XIncr for warm start mode 5 (15) *)
+	lrAccuracy:					LREAL:= 0.1;(* Accuracy for warm start mode 5 (15) *)
+
+//  Used to alternatively generate XLowEnd and XHighEnd with a fixed Position, TXend is than obsolete
+	lrXEndWidth:				LREAL:= 0;	// if lrXEndWidth > 0 then this option is active
+
+	xDirectionChanged:			BOOL;		// Shows that direction of Master has changed after a new Job was set for the previous direction
+											// allows to connect another cam to  the actual running cam 
+END_STRUCT
+END_TYPE

@@ -16,6 +16,8 @@ PROGRAM SR_Application
 VAR
 	fbLogicEnc : MOIN.FB_LogicalEncoder;
 	fbVirtualMaster : MOIN.FB_ControlledAxis;
+	
+	xTest		: BOOL;
 END_VAR
 __IMPLEMENTATION__
 

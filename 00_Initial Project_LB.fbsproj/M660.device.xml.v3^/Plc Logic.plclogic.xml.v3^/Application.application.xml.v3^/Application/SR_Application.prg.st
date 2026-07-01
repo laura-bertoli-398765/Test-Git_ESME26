@@ -20,4 +20,5 @@ VAR
 	xTest		: BOOL;
 END_VAR
 __IMPLEMENTATION__
-
+xTest := FALSE;
+//GitHub test

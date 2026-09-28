@@ -8,6 +8,8 @@
     }
   },
   "placeholderOverrides": {
+    "Collections": "Collections, 3.5.17.0 (System)",
+    "ElementCollections": "Element Collections, 3.5.17.0 (3S - Smart Software Solutions GmbH)",
     "Standard": "Standard, 3.5.18.0 (System)",
     "StringUtils": "StringUtils, 3.5.20.0 (System)",
     "System_VisuElem3DPath": "VisuElem3DPath, 4.7.0.0 (System)",
@@ -23,7 +25,8 @@
     "System_VisuElemXYChart": "VisuElemXYChart, 4.8.0.0 (System)",
     "System_VisuInputs": "VisuInputs, 4.7.0.0 (System)",
     "System_VisuNativeControl": "VisuNativeControl, 4.9.0.0 (System)",
-    "SystemInterface": "SystemInterfaceLMC, 26.0.4.0 (Schneider Electric)"
+    "SystemInterface": "SystemInterfaceLMC, 26.0.4.0 (Schneider Electric)",
+    "Util": "Util, 3.5.21.0 (System)"
   },
   "v3Meta": {
     "objectName": null,
@@ -205,6 +208,15 @@
         "$type": "Placeholder",
         "placeholder": "EthernetDeviceInterface",
         "defaultResolution": "EthernetDeviceInterface, 26.0.0.1 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IecVarAccessLibrary",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IecVarAccess",
+        "defaultResolution": "IecVarAccess, 3.3.1.20 (System)",
         "allowUnqualifiedAccess": true
       }
     },
